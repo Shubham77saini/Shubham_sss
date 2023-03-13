@@ -44,7 +44,7 @@ CANNY    = 3   # Canny Edge Detector
 feature_params = dict( maxCorners = 500,
                        qualityLevel = 0.2,
                        minDistance = 15,
-                       blockSize = 9)
+                       blockSize = 17)
 s = 0
 if len(sys.argv) > 1:
     s = sys.argv[1]
